@@ -1,14 +1,16 @@
-.App {
+.Todo {
   text-align: center;
 }
 
-.App-input {
+.Todo-input {
   height: 7vmin;
   width: 50vmin;
-  font-size: 16px;
+  font-size: 24px;
+  color: #282c34;
+  text-align: center;
 }
 
-.App-header {
+.Todo-header {
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
