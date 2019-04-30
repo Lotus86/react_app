@@ -5,12 +5,27 @@
 .Todo-input {
   height: 7vmin;
   width: 50vmin;
+  border-radius: 5px;
+  border: none;
   font-size: 24px;
   color: #282c34;
   text-align: center;
 }
 
-.Todo-header {
+.todoButton {
+    height: 5vmin;
+    width: 10vmin;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #398050;
+    color: white;
+    text-align: center;
+}
+
+.todoHeader {
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
