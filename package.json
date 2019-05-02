@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
     "react": "^16.6.1",
-    "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.6.1",
     "react-scripts": "2.1.1"
   },
@@ -25,5 +26,18 @@
   ],
   "devDependencies": {
     "@babel/preset-react": "^7.0.0"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lotus86/react_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lotus86/react_app/issues"
+  },
+  "homepage": "https://github.com/Lotus86/react_app#readme"
 }
