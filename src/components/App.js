@@ -1,11 +1,12 @@
 import React from 'react'
-import Article from './Article'
+import PostList from './PostList'
+import comment from '../fixtures'
 
 function App() {
     return (
         <div>
-            <h1>App</h1>
-            <Article />
+            <h1>Creation a Post</h1>
+            <PostList comment = {comment} />
         </div>
     )
 }
