@@ -6,7 +6,6 @@ export default function PostList({comment}) {
         <ul>
             <li> <Post comment = {comment[0]} /> </li>
             <li> <Post comment = {comment[1]} /> </li>
-            <li> <Post comment = {comment[2]} /> </li>
         </ul>
     )
 }
