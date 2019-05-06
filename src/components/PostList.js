@@ -2,10 +2,10 @@ import React from 'react'
 import Post from './Post'
 
 export default function PostList({comment}) {
+    const commentList = comment.map((comment => <li key={comment.id}><Post comment = {comment}/></li>))
     return (
         <ul>
-            <li> <Post comment = {comment[0]} /> </li>
-            <li> <Post comment = {comment[1]} /> </li>
+            {commentList}
         </ul>
     )
 }
